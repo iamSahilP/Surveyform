@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.feedback">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="15" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="10" bottom="50" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="866" height="687"/>
+    </constraints>
+    <properties>
+      <background color="-262"/>
+      <toolTipText value="share your views"/>
+    </properties>
+    <border type="bevel-raised">
+      <title-color color="-4473925"/>
+    </border>
+    <children>
+      <component id="97791" class="javax.swing.JLabel" binding="LABEL">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="8" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Castellar" size="48" style="1"/>
+          <foreground color="-4516067"/>
+          <text value="FEEDBACK SURVEY"/>
+        </properties>
+      </component>
+      <component id="5cabf" class="javax.swing.JLabel" binding="NAME">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20" style="1"/>
+          <text value="NAME OF USER"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="f70b6" class="javax.swing.JLabel" binding="EMAIL">
+        <constraints>
+          <grid row="5" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20" style="1"/>
+          <text value="EMAIL "/>
+        </properties>
+      </component>
+      <component id="60195" class="javax.swing.JTextField" binding="EMAILOFUSER">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="2" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <toolTipText value="Type your Email"/>
+        </properties>
+      </component>
+      <component id="9371b" class="javax.swing.JTextField" binding="NAMEOFUSER">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="2" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <toolTipText value="Type your Name"/>
+        </properties>
+      </component>
+      <component id="43acd" class="javax.swing.JCheckBox" binding="check">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="4" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Receive Promotional Email  "/>
+        </properties>
+      </component>
+      <component id="c0e0a" class="javax.swing.JLabel" binding="AGE">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20" style="1"/>
+          <text value="AGE GROUP"/>
+        </properties>
+      </component>
+      <component id="bba53" class="javax.swing.JComboBox" binding="AGEBOX">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="2" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value=""/>
+            <item value="Below 18"/>
+            <item value="18-25"/>
+            <item value="25-30"/>
+            <item value="30-35"/>
+            <item value="35-40"/>
+            <item value="40+"/>
+          </model>
+        </properties>
+      </component>
+      <component id="7d760" class="javax.swing.JLabel" binding="RATING">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20" style="1"/>
+          <text value="RATING"/>
+        </properties>
+      </component>
+      <component id="24dc9" class="javax.swing.JLabel" binding="descp">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="18" style="1"/>
+          <text value="DESCRIPTION (optional)"/>
+        </properties>
+      </component>
+      <hspacer id="60c39">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="7" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="15"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="950e0">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="7" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="10"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="15e4a">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="7" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="25"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="3549f">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="7" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="5"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="f4dd7">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="7" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="15"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="86b78" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="8" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="0" height="0"/>
+            <maximum-size width="-1" height="5"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-8538949"/>
+        </properties>
+      </component>
+      <component id="ead3b" class="javax.swing.JButton" binding="SUBMIT">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="5" height="5"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14903250"/>
+          <enabled value="true"/>
+          <foreground color="-16777216"/>
+          <text value="SUBMIT"/>
+        </properties>
+      </component>
+      <hspacer id="60792">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="7" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="50"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="f38f0" class="javax.swing.JTextField" binding="PUTFEED">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="2" use-parent-layout="false">
+            <preferred-size width="150" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="0"/>
+          <horizontalAlignment value="2"/>
+          <text value=""/>
+          <toolTipText value="share your views"/>
+        </properties>
+      </component>
+      <component id="c99c0" class="javax.swing.JButton" binding="RESET">
+        <constraints>
+          <grid row="14" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4504512"/>
+          <enabled value="true"/>
+          <foreground color="-16777216"/>
+          <text value="RESET"/>
+        </properties>
+      </component>
+      <component id="12b4c" class="javax.swing.JRadioButton" binding="one">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="2" use-parent-layout="false">
+            <preferred-size width="86" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="1 "/>
+        </properties>
+      </component>
+      <component id="d5d69" class="javax.swing.JRadioButton" binding="two">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="90" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="2 "/>
+        </properties>
+      </component>
+      <component id="65bc1" class="javax.swing.JRadioButton" binding="three">
+        <constraints>
+          <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="4 "/>
+        </properties>
+      </component>
+      <component id="61eb0" class="javax.swing.JRadioButton" binding="four">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="87" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="3 "/>
+        </properties>
+      </component>
+      <component id="e5d6b" class="javax.swing.JRadioButton" binding="five">
+        <constraints>
+          <grid row="10" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="5 "/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="RATEBUTTON">
+      <member id="d5d69"/>
+      <member id="12b4c"/>
+      <member id="61eb0"/>
+      <member id="65bc1"/>
+      <member id="e5d6b"/>
+    </group>
+  </buttonGroups>
+</form>
